@@ -1,0 +1,188 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 2000px;
+    font-family: "Nunito", sans-serif;
+}
+
+/* ESTILOS HEADER */
+
+header {
+    width: 100%;
+    background-color: rgb(34, 134, 165);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.container-fluid {
+    width: auto;
+    justify-content: center;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0 50px;
+}
+
+.navbar-nav li {
+    padding: 20px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.search {
+    padding: 0 70px;
+}
+
+.btn {
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: rgb(34, 134, 165);
+    border: 1px solid white;
+}
+
+/* ESTILOS MAIN */
+
+main {
+    min-height: 100vh;
+    width: auto;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.banner {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 80vw;
+}
+
+.cardsIndex {
+    margin: 0;
+    padding: 0px 150px 50px 150px;
+}
+
+.cardIndex {
+    border: 1px solid black;
+
+}
+
+.card-img-top {
+    opacity: 0.7;
+}
+
+.card-img-top:hover {
+    opacity: 1;
+}
+
+.accordion {
+    width: 60vw;
+    margin-bottom: 10px;
+}
+
+.accordion-button:enabled {
+    background-color:white;
+}
+
+.accordion-header {
+    z-index: 1;
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.cardsProyectos {
+    width: 100%;
+    margin: 0 0 50px 0;
+    padding: 0 auto;
+}
+
+.cardProyectos {
+    width: 30vw;
+    text-align: center;
+}
+
+.cardsSobremi {
+    width: 80vw;
+    border: 0;
+}
+
+.cardSobremi {
+    width: auto;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.rowForm {
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.btnForm {
+    background-color: rgb(34, 134, 165);
+}
+
+.fa-linkedin {
+    font-size: 70px;
+    color: rgb(34, 134, 165);
+    display: flex;
+    position: fixed;
+    bottom: 150px;
+    right: 25px;
+}
+
+.fa-square-whatsapp {
+    font-size: 70px;
+    color: rgb(34, 134, 165);
+    display: flex;
+    position: fixed;
+    bottom: 70px;
+    right: 25px;
+}
+
+/* ESTILOS FOOTER */
+
+footer {
+    height: auto;
+    background-color: rgb(34, 134, 165);
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    color: white;
+    position: sticky;
+    bottom: 0px;
+}
+
+footer p {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
