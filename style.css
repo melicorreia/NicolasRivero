@@ -80,7 +80,7 @@ h5 {
     color: rgb(34, 134, 165);
     display: flex;
     position: fixed;
-    bottom: 150px;
+    bottom: 180px;
     right: 25px;
 }
 
@@ -104,8 +104,9 @@ h5 {
 }
 
 .cardsIndex {
-    margin: 0;
-    padding: 0px auto 50px auto;
+    margin-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .cardIndex {
