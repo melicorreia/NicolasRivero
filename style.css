@@ -81,7 +81,7 @@ h2 {
 
 .cardsIndex {
     margin: 0;
-    padding: 0px 150px 50px 150px;
+    padding: 0px auto 50px auto;
 }
 
 .cardIndex {
@@ -163,7 +163,7 @@ h5 {
     color: rgb(34, 134, 165);
     display: flex;
     position: fixed;
-    bottom: 80px;
+    bottom: 100px;
     right: 25px;
 }
 
