@@ -9,7 +9,7 @@
 
 header {
   width: 100%;
-  background-image: radial-gradient(circle, rgb(34, 134, 165), rgb(34, 134, 165), rgb(34, 134, 165), black);
+  background-image: linear-gradient(to right, black, rgb(34, 134, 165), rgb(34, 134, 165), rgb(34, 134, 165), black);
   display: flex;
   position: sticky;
   top: 0px;
@@ -83,7 +83,7 @@ main .fa-square-whatsapp {
 
 footer {
   height: auto;
-  background-image: radial-gradient(circle, rgb(34, 134, 165), rgb(34, 134, 165), rgb(34, 134, 165), black);
+  background-image: linear-gradient(to right, black, rgb(34, 134, 165), rgb(34, 134, 165), rgb(34, 134, 165), black);
   font-size: 20px;
   text-align: center;
   display: flex;

@@ -2,6 +2,6 @@ $color1: rgb(34, 134, 165);
 $color2: black;
 $color3: white;
 
-$degradado: radial-gradient(circle, $color1, $color1, $color1, $color2);
+$degradado: linear-gradient(to right, $color2, $color1, $color1, $color1, $color2);
 
 $fuente: "Nunito", sans-serif;
