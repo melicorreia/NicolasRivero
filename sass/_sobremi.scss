@@ -1,0 +1,11 @@
+@import "variables";
+
+main {
+    .cardsSobremi {
+        width: 80vw;
+        border: 0;
+        .cardSobremi {
+            width: auto;
+        }
+    }
+}

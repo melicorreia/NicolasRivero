@@ -1,0 +1,11 @@
+@import "variables";
+
+main {
+    .rowForm {
+        width: 40vw;
+        margin: 0 auto;
+        .btnForm {
+            background-color: $color1;
+        }
+    }
+}

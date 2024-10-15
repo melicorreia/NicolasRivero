@@ -1,0 +1,18 @@
+@import "variables";
+
+footer {
+    height: auto;
+    background-color: $color1;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    color: $color3;
+    position: sticky;
+    bottom: 0px;
+
+    p {
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

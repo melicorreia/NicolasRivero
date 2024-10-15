@@ -1,0 +1,21 @@
+@import "variables";
+
+main {
+    .accordion {
+        width: 60vw;
+        margin-bottom: 10px;
+        .accordion-item {
+            .accordion-header {
+                z-index: 1;
+                font-weight: bold;
+                .accordion-button:enabled {
+                    background-color: $color3;
+                }
+                .accordion-button:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}

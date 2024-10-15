@@ -1,0 +1,43 @@
+@import "variables";
+
+header {
+    width: 100%;
+    background-color: $color1;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    .navbar {
+        .container-fluid {
+            width: auto;
+            justify-content: center;
+            .navbar-brand {
+                color: $color3;
+                font-size: 30px;
+                margin: 0;
+                padding: 0 50px;
+            }
+        }
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    padding: 20px;
+                    .nav-link {
+                        color: $color3;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .search {
+            padding: 0 70px;
+            .btn {
+                background-color: $color3;
+            }
+            .btn:hover {
+                background-color: $color1;
+                border: 1px solid $color3;
+            }
+        }    
+    }
+}

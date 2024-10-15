@@ -1,0 +1,9 @@
+@import "variables";
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 2000px;
+    font-family: $fuente;
+}

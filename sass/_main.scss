@@ -1,0 +1,37 @@
+@import "variables";
+
+main {
+    min-height: 100vh;
+    width: auto;
+    background-color: $color3;
+    h1 {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    h2 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    h5 {
+        font-weight: bold;
+    }
+    .fa-linkedin {
+        font-size: 70px;
+        color: $color1;
+        display: flex;
+        position: fixed;
+        bottom: 180px;
+        right: 25px;
+    }
+    
+    .fa-square-whatsapp {
+        font-size: 70px;
+        color: $color1;
+        display: flex;
+        position: fixed;
+        bottom: 100px;
+        right: 25px;
+    }
+}
