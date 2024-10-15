@@ -41,5 +41,8 @@ main {
             background: inherit;
             border-radius: inherit;
         }
+        .cardProyectos:hover {
+            transform: scale(1.02, 1.02);
+        }
     }
 }

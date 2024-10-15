@@ -25,6 +25,12 @@ main {
         bottom: 180px;
         right: 25px;
     }
+
+    a {
+        i:hover {
+            transform: scale(1.2, 1.2);
+        }
+    }
     
     .fa-square-whatsapp {
         font-size: 70px;
