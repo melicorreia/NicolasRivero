@@ -14,13 +14,46 @@ main {
         padding-left: 200px;
         padding-right: 200px;
         .cardIndex {
-            border: 1px solid $color2;
+            border: 0px;
+            margin: 20px;
+            background: $color3;
+            .card-body {
+                z-index: 3;
+            }
             .card-img-top {
                 opacity: 0.7;
+                z-index: 3;
             }
             .card-img-top:hover {
                 opacity: 1;
             }
         }
+        .cardIndex::before {
+            content: "";
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(0deg, $color1 -180%, $color3 180% );
+            transform: translate3d(0px, 0px, 0) scale(1.02);
+            filter: blur(10px);
+            opacity: var(1);
+            transition: opacity 0.3s;
+            border-radius: inherit;
+        }
+        .cardIndex::after {
+            content: "";
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: inherit;
+            border-radius: inherit;
+        }
     }
+
 }

@@ -2,13 +2,14 @@
 
 footer {
     height: auto;
-    background-color: $color1;
+    background-image: $degradado;
     font-size: 20px;
     text-align: center;
     display: flex;
     color: $color3;
     position: sticky;
     bottom: 0px;
+    z-index: 3;
 
     p {
         margin: auto;

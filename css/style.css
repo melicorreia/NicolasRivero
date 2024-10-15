@@ -9,7 +9,7 @@
 
 header {
   width: 100%;
-  background-color: rgb(34, 134, 165);
+  background-image: radial-gradient(circle, rgb(34, 134, 165), rgb(34, 134, 165), rgb(34, 134, 165), black);
   display: flex;
   position: sticky;
   top: 0px;
@@ -21,7 +21,7 @@ header .navbar .container-fluid {
 }
 header .navbar .container-fluid .navbar-brand {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   padding: 0 50px;
 }
@@ -80,13 +80,14 @@ main .fa-square-whatsapp {
 
 footer {
   height: auto;
-  background-color: rgb(34, 134, 165);
+  background-image: radial-gradient(circle, rgb(34, 134, 165), rgb(34, 134, 165), rgb(34, 134, 165), black);
   font-size: 20px;
   text-align: center;
   display: flex;
   color: white;
   position: sticky;
   bottom: 0px;
+  z-index: 3;
 }
 footer p {
   margin: auto;
@@ -109,13 +110,45 @@ main .cardsIndex {
   padding-right: 200px;
 }
 main .cardsIndex .cardIndex {
-  border: 1px solid black;
+  border: 0px;
+  margin: 20px;
+  background: white;
+}
+main .cardsIndex .cardIndex .card-body {
+  z-index: 3;
 }
 main .cardsIndex .cardIndex .card-img-top {
   opacity: 0.7;
+  z-index: 3;
 }
 main .cardsIndex .cardIndex .card-img-top:hover {
   opacity: 1;
+}
+main .cardsIndex .cardIndex::before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgb(34, 134, 165) -180%, white 180%);
+  transform: translate3d(0px, 0px, 0) scale(1.02);
+  filter: blur(10px);
+  opacity: var(1);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+main .cardsIndex .cardIndex::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
 }
 
 main .accordion {
@@ -137,11 +170,43 @@ main .accordion .accordion-item .accordion-header .accordion-button:focus {
 main .cardsProyectos {
   width: 100%;
   margin: 0 0 50px 0;
-  padding: 0 auto;
+  padding: 0 15vw;
 }
 main .cardsProyectos .cardProyectos {
   width: 30vw;
   text-align: center;
+}
+main .cardsProyectos .cardProyectos .card-img-top {
+  z-index: 3;
+}
+main .cardsProyectos .cardProyectos .card-body {
+  z-index: 3;
+}
+main .cardsProyectos .cardProyectos::before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgb(34, 134, 165) -180%, white 180%);
+  transform: translate3d(0px, 0px, 0) scale(1.02);
+  filter: blur(10px);
+  opacity: var(1);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+main .cardsProyectos .cardProyectos::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
 }
 
 main .cardsSobremi {

@@ -2,7 +2,7 @@
 
 header {
     width: 100%;
-    background-color: $color1;
+    background-image: $degradado;
     display: flex;
     position: sticky;
     top: 0px;
@@ -13,7 +13,7 @@ header {
             justify-content: center;
             .navbar-brand {
                 color: $color3;
-                font-size: 30px;
+                font-size: 40px;
                 margin: 0;
                 padding: 0 50px;
             }
