@@ -176,6 +176,7 @@ main .cardsProyectos {
 }
 main .cardsProyectos .cardProyectos {
   width: 30vw;
+  height: 32vw;
   text-align: center;
 }
 main .cardsProyectos .cardProyectos .card-img-top {
@@ -192,7 +193,7 @@ main .cardsProyectos .cardProyectos::before {
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(0deg, rgb(34, 134, 165) -180%, white 180%);
+  background: linear-gradient(45deg, rgb(34, 134, 165) -180%, white 180%);
   transform: translate3d(0px, 0px, 0) scale(1.02);
   filter: blur(10px);
   opacity: var(1);
@@ -212,6 +213,9 @@ main .cardsProyectos .cardProyectos::after {
 }
 main .cardsProyectos .cardProyectos:hover {
   transform: scale(1.02, 1.02);
+}
+main .cardsProyectos .carousel {
+  z-index: 10;
 }
 
 main .cardsSobremi {
