@@ -7,13 +7,16 @@ main {
         padding: 0 15vw;
         .cardProyectos {
             width: 30vw;
-            height: 32vw;
+            height: auto;
             text-align: center;
             .card-img-top {
                 z-index: 3;
             }
             .card-body {
                 z-index: 3;
+                display: flex;
+                position: static;
+                flex-direction: column;
             }
         }
         .cardProyectos::before {

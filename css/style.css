@@ -23,7 +23,7 @@ header .navbar .container-fluid .navbar-brand {
   color: white;
   font-size: 40px;
   margin: 0;
-  padding: 0 50px;
+  padding: 20px;
 }
 header .navbar .navbar-collapse .navbar-nav .nav-item {
   padding: 20px;
@@ -33,7 +33,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   font-size: 20px;
 }
 header .navbar .search {
-  padding: 0 70px;
+  padding: 20px;
 }
 header .navbar .search .btn {
   background-color: white;
@@ -176,7 +176,7 @@ main .cardsProyectos {
 }
 main .cardsProyectos .cardProyectos {
   width: 30vw;
-  height: 32vw;
+  height: auto;
   text-align: center;
 }
 main .cardsProyectos .cardProyectos .card-img-top {
@@ -184,6 +184,9 @@ main .cardsProyectos .cardProyectos .card-img-top {
 }
 main .cardsProyectos .cardProyectos .card-body {
   z-index: 3;
+  display: flex;
+  position: static;
+  flex-direction: column;
 }
 main .cardsProyectos .cardProyectos::before {
   content: "";
